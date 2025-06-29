@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Dipak Car Decoration | Our Work Showcase</title>
+    <meta name="description" content="Explore our gallery of car decoration projects, alloy wheel installations, door visor fittings, and chrome accessories work.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>DIPAK CAR DECORATION</h2>
+                <span class="tagline">Premium Car Styling</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+                <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Work Gallery</h1>
+            <p>Showcasing our expertise in automotive styling and decoration</p>
+        </div>
+    </section>
+
+    <!-- Gallery Filters -->
+    <section class="gallery-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Work</button>
+                <button class="filter-btn" data-filter="decoration">Car Decoration</button>
+                <button class="filter-btn" data-filter="alloy">Alloy Wheels</button>
+                <button class="filter-btn" data-filter="visor">Door Visors</button>
+                <button class="filter-btn" data-filter="chrome">Chrome Parts</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Gallery -->
+    <section class="video-gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Video Showcase</h2>
+                <p>Watch our expert work in action</p>
+            </div>
+            <div class="videos-grid">
+                <!-- Car Decoration Videos -->
+                <div class="video-item" data-category="decoration">
+                    <div class="video-container">
+                        <iframe 
+                            src="https://www.youtube.com/embed/NLA1AWAbTZk" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Wedding Car Decoration</h3>
+                        <p>Professional wedding car decoration services for special occasions</p>
+                    </div>
+                </div>
+
+                <div class="video-item" data-category="decoration">
+                    <div class="video-container">
+                        <iframe 
+                            src="https://www.youtube.com/embed/gIxNQoScp5k" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Custom Interior Modification</h3>
+                        <p>Creta interior modification showcasing premium customization work</p>
+                    </div>
+                </div>
+
+                <!-- Alloy Wheel Videos -->
+                <div class="video-item" data-category="alloy">
+                    <div class="video-container">
+                        <iframe 
+                            src="https://www.youtube.com/embed/S7zGKG-SXfU" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Alloy Wheel Installation</h3>
+                        <p>Professional alloy wheel installation process for Swift</p>
+                    </div>
+                </div>
+
+                <div class="video-item" data-category="alloy">
+                    <div class="video-container">
+                        <iframe 
+                            src="https://www.youtube.com/embed/We9FBNRTSwc" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Swift Alloy Wheel Change</h3>
+                        <p>Complete alloy wheel upgrade for enhanced performance and style</p>
+                    </div>
+                </div>
+
+                <!-- Door Visor Videos -->
+                <div class="video-item" data-category="visor">
+                    <div class="video-container">
+                        <iframe 
+                            src="https://www.youtube.com/embed/5OJ_NbtSuv4" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Door Visor Installation Guide</h3>
+                        <p>Step-by-step door visor installation for rain protection</p>
+                    </div>
+                </div>
+
+                <div class="video-item" data-category="visor">
+                    <div class="video-container">
+                        <iframe 
+                            src="https://www.youtube.com/embed/fwA_7JciAco" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Chrome Door Visor Installation</h3>
+                        <p>Premium chrome door visor fitting for Maruti Suzuki Dzire</p>
+                    </div>
+                </div>
+
+                <!-- Chrome Parts Videos -->
+                <div class="video-item" data-category="chrome">
+                    <div class="video-container">
+                        <iframe 
+                            src="https://www.youtube.com/embed/Y8QARS3gOh8" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Chrome Window Garnish Installation</h3>
+                        <p>Professional chrome accessories installation for Ford EcoSport</p>
+                    </div>
+                </div>
+
+                <div class="video-item" data-category="chrome">
+                    <div class="video-container">
+                        <iframe 
+                            src="https://www.youtube.com/embed/TqtYAOQ3GCA" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Chrome Kit Installation</h3>
+                        <p>Complete chrome accessories package for Tata Punch</p>
+                    </div>
+                </div>
+
+                <!-- Additional Decoration Videos -->
+                <div class="video-item" data-category="decoration">
+                    <div class="video-container">
+                        <iframe 
+                            src="https://www.youtube.com/embed/uujHzxZYAVs" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Car Accessories & Modification</h3>
+                        <p>Best car accessories and modification shop showcase</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Gallery -->
+    <section class="image-gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Project Gallery</h2>
+                <p>Browse through our completed projects</p>
+            </div>
+            <div class="gallery-grid">
+                <!-- Placeholder images for different categories -->
+                <div class="gallery-item" data-category="decoration">
+                    <div class="gallery-image">
+                        <i class="fas fa-car"></i>
+                        <div class="overlay">
+                            <h4>Interior Decoration</h4>
+                            <p>Premium seat covers and dashboard styling</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="alloy">
+                    <div class="gallery-image">
+                        <i class="fas fa-circle"></i>
+                        <div class="overlay">
+                            <h4>Sport Alloy Wheels</h4>
+                            <p>18" premium alloy wheel installation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="visor">
+                    <div class="gallery-image">
+                        <i class="fas fa-window-maximize"></i>
+                        <div class="overlay">
+                            <h4>Chrome Door Visors</h4>
+                            <p>Premium chrome visor installation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="chrome">
+                    <div class="gallery-image">
+                        <i class="fas fa-star"></i>
+                        <div class="overlay">
+                            <h4>Chrome Grille</h4>
+                            <p>Custom chrome grille upgrade</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="decoration">
+                    <div class="gallery-image">
+                        <i class="fas fa-heart"></i>
+                        <div class="overlay">
+                            <h4>Wedding Decoration</h4>
+                            <p>Complete wedding car styling package</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="alloy">
+                    <div class="gallery-image">
+                        <i class="fas fa-cog"></i>
+                        <div class="overlay">
+                            <h4>Custom Alloys</h4>
+                            <p>Forged alloy wheels with custom finish</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="chrome">
+                    <div class="gallery-image">
+                        <i class="fas fa-hand-paper"></i>
+                        <div class="overlay">
+                            <h4>Chrome Door Handles</h4>
+                            <p>Complete chrome handle set installation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="decoration">
+                    <div class="gallery-image">
+                        <i class="fas fa-palette"></i>
+                        <div class="overlay">
+                            <h4>Custom Graphics</h4>
+                            <p>Unique vinyl graphics and decals</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Customers Say</h2>
+                <p>Real feedback from satisfied customers</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Excellent work on my car decoration. The team at Dipak Car Decoration transformed my vehicle beyond my expectations. Highly recommended!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Rajesh Sharma</h4>
+                        <span>Pokhara</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Professional alloy wheel installation with perfect balancing. Great service and competitive pricing. Will definitely return for future modifications."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Priya Gurung</h4>
+                        <span>Pokhara</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Amazing wedding car decoration service. They made our special day even more memorable with their beautiful styling work. Thank you!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Amit & Sita</h4>
+                        <span>Pokhara</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Vehicle?</h2>
+                <p>Join our gallery of satisfied customers</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">
+                        <i class="fas fa-phone"></i>
+                        Start Your Project
+                    </a>
+                    <a href="products.html" class="btn btn-secondary">
+                        <i class="fas fa-list"></i>
+                        View Services
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Dipak Car Decoration</h3>
+                    <p>Nepal's premier automotive styling specialists, transforming vehicles with precision and passion.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="products.html">Car Decoration</a></li>
+                        <li><a href="products.html">Alloy Wheels</a></li>
+                        <li><a href="products.html">Door Visors</a></li>
+                        <li><a href="products.html">Chrome Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Nayabazar, Pokhara-8, Nepal</p>
+                        <p><i class="fas fa-phone"></i> +977 985-6072715</p>
+                        <p><i class="fas fa-clock"></i> Always Open</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dipak Car Decoration. All rights reserved. | Designed with ❤️ for automotive excellence</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
